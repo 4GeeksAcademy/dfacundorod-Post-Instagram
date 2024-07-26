@@ -1,4 +1,4 @@
-html{
+/*html{
     background-color: #595959;
 }
 body{
@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: auto;
     margin: auto;
     margin-top: 10vh;
 }
@@ -64,4 +63,55 @@ img{
 }
 .post-footer{
     margin: 10px;
+}*/
+*{
+    border: 1px, red, solid;
+}
+body{
+    position: relative;
+    width: 40%;
+    margin: 10% auto;
+}
+img{
+    width: 100%;
+}
+h1, h2{
+    margin: 0;
+}
+
+.post-header{
+    display: flex;
+    position: relative;
+}
+.logo-header{
+    position: relative;
+    left: 2%;
+    font-size: 3.5rem;
+}
+.header-text{
+    position: relative;
+    margin: 0;
+    left: 6%;
+
+}
+.logo-point{
+    position: absolute;
+    right: 2%;
+    font-size: 3.5rem;
+}
+.post-icons{
+    display: flex;
+    font-size: 2.0rem;
+    padding-left: 2%;
+    flex-grow: 2%;
+}
+.post-icons * div{
+    margin: 1%;
+}
+.post-icons div:nth-child(4){
+    position: absolute;
+    right: 2%;
+}
+.post-footer{
+    padding: 2%;
 }
